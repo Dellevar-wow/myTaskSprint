@@ -8,5 +8,6 @@ fun main() {
     val hours = seconds / SECONDS_IN_HOURS
     val minutes = seconds % SECONDS_IN_HOURS / SECONDS_IN_MINUTES
     seconds = seconds % SECONDS_IN_HOURS % SECONDS_IN_MINUTES
+
     println("%02d:%02d:%02d".format(hours, minutes, seconds))
 }
