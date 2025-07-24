@@ -7,7 +7,7 @@ fun main() {
     val interestRate = 0.167
     val term = 20
 
-    val depositThrowTerm = nMoney*(1+interestRate).pow(term)
+    val depositThrowTerm = nMoney * (1 + interestRate).pow(term)
 
     println("%.3f".format(depositThrowTerm))
 }
