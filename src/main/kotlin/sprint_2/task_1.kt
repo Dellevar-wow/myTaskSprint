@@ -1,7 +1,5 @@
 package org.example.sprint_2
 
-import kotlin.math.round
-
 fun main() {
     val marksEnglish = listOf(3,4,3,5)
     val numberOfHuman = marksEnglish.count()
