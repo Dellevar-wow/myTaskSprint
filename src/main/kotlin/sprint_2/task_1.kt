@@ -4,7 +4,7 @@ fun main() {
     val marksEnglish = listOf(3,4,3,5)
     val numberOfHuman = marksEnglish.count()
 
-    val averrageMarke = marksEnglish.sum().toDouble() / numberOfHuman
+    val averageMark = marksEnglish.sum().toDouble() / numberOfHuman
 
-    print(averrageMarke)
+    print(averageMark)
 }
