@@ -6,11 +6,11 @@ fun main() {
     val numberOfIntern = 30
     val salaryOfIntern = 20000
 
-    val salaryForAllEmployee = numberOfEmployee*salaryOfEmployee
-    val salaryForAllEmployeeAndIntern = salaryOfEmployee + numberOfIntern*salaryOfIntern
-    val averageSalaryOneEmployee = salaryForAllEmployeeAndIntern / (numberOfEmployee+numberOfIntern)
+    val salaryForAllEmployee = numberOfEmployee * salaryOfEmployee
+    val salaryForAllEmployeeAndIntern = salaryForAllEmployee + numberOfIntern * salaryOfIntern
+    val averageSalaryOneEmployee = salaryForAllEmployeeAndIntern / (numberOfEmployee + numberOfIntern)
 
     println("Расходы на выплату зарплаты постоянных сотрудников: $salaryForAllEmployee")
     println("Общие расходы по ЗП после прихода стажеров: $salaryForAllEmployeeAndIntern")
-    println("Среднюю ЗП одного сотрудника после устройства стажеров: $averageSalaryOneEmployee")
+    println("Средняя ЗП одного сотрудника после устройства стажеров: $averageSalaryOneEmployee")
 }
