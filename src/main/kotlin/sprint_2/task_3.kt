@@ -7,7 +7,7 @@ fun main() {
     val minutesToStart: Int = 39
     val minutesOnTheWayTotal: Int = 457
 
-    val minutesToStartTotalandOnTheWay: Int = hoursToStart*MINUTES_IN_HOUR+minutesToStart+minutesOnTheWayTotal
+    val minutesToStartTotalandOnTheWay: Int = hoursToStart * MINUTES_IN_HOUR + minutesToStart + minutesOnTheWayTotal
     val hoursOnTheWay: Int = minutesToStartTotalandOnTheWay / MINUTES_IN_HOUR
     val minutesOnTheWay: Int = minutesToStartTotalandOnTheWay % MINUTES_IN_HOUR
 
