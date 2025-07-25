@@ -7,8 +7,9 @@ fun main() {
     val minutesToStart: Int = 39
     val minutesOnTheWayTotal: Int = 457
 
-    val hoursOnTheWay: Int = minutesOnTheWayTotal / MINUTES_IN_HOUR
-    val minutesOnTheWay: Int = minutesOnTheWayTotal - (hoursOnTheWay * MINUTES_IN_HOUR)
+    val minutesToStartTotalandOnTheWay: Int = hoursToStart*MINUTES_IN_HOUR+minutesToStart+minutesOnTheWayTotal
+    val hoursOnTheWay: Int = minutesToStartTotalandOnTheWay / MINUTES_IN_HOUR
+    val minutesOnTheWay: Int = minutesToStartTotalandOnTheWay % MINUTES_IN_HOUR
 
     println("Время прибытия поезда: $hoursOnTheWay:$minutesOnTheWay")
 }
