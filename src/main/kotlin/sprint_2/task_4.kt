@@ -7,8 +7,8 @@ fun main() {
     val nCrystalOreWithoutBuff = 7
     val nIronOreWithoutBuff = 11
 
-    val nCrystalOreWithBuff = (nCrystalOreWithoutBuff * abilityBuff/PERCENT).toInt()
-    val nIronOreWithBuff = (nIronOreWithoutBuff * abilityBuff/PERCENT).toInt()
+    val nCrystalOreWithBuff = (nCrystalOreWithoutBuff * abilityBuff / PERCENT).toInt()
+    val nIronOreWithBuff = (nIronOreWithoutBuff * abilityBuff / PERCENT).toInt()
 
     println("Дополнительная кристалическая руда: $nCrystalOreWithBuff")
     println("Дополнительная железная руда: $nIronOreWithBuff")
