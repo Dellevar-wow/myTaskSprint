@@ -8,7 +8,7 @@ fun main() {
     println("Введите 2-е число от 0 до 42: ")
     val numUser2 = readln().toInt()
 
-    if((numWinner1 == numUser1 || numWinner1 == numUser2) && (numWinner2 == numUser1 || numWinner2 == numUser2) ){
+    if((numWinner1 == numUser1 || numWinner1 == numUser2) && (numWinner2 == numUser1 || numWinner2 == numUser2)){
         println("“Поздравляем! Вы выиграли главный приз!")
     } else if(numWinner1 == numUser1 || numWinner1 == numUser2 || numWinner2 == numUser1 || numWinner2 == numUser2){
         println("Вы выиграли утешительный приз!")
